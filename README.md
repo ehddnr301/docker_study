@@ -8,6 +8,7 @@
 
 - 컨테이너는 도커 엔진 위에서 동작
 - 서버를 업데이트 할때는 새로운 도커이미지를 업데이트해서 컨테이너에 올리고 기존의 컨테이너는 제거합니다.
+- 하나의 도커 이미지에는 하나의 어플리케이션이 올라가는게 좋음
 
 ## 구성
 
@@ -20,5 +21,5 @@
 ## 설치
 
 - Docker For Mac과 Docker Toolbox의 차이점은?
-  - 가장 큰 차이점은 사용하는 가상머신이 다르다는 점입니다. Docker Toolbox 같은 경우에는 Boot2Docker에서 사용해왔던 VirtualBox를 그대로 사용합니다. 
+  - 가장 큰 차이점은 사용하는 가상머신이 다르다는 점입니다. Docker Toolbox 같은 경우에는 Boot2Docker에서 사용해왔던 VirtualBox를 그대로 사용합니다.
   - 반면에 Docker for Mac은 HyperKit 이라는 macOS를 위한 경량화 가상머신을 사용합니다.
